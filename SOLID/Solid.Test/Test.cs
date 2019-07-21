@@ -13,5 +13,13 @@ namespace Solid.Test
             var result = fizzBuzz.ReturnValue(3);
             Assert.AreEqual("Fizz", result);
         }
+
+        [Test()]
+        public void Using_Number_4_Should_Print_4()
+        {
+            FizzBuzz fizzBuzz = new FizzBuzz();
+            var result = fizzBuzz.ReturnValue(4);
+            Assert.AreEqual("4", result);
+        }
     }
 }
