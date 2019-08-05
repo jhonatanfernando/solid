@@ -29,5 +29,15 @@ namespace Solid.Test
             var result = fizzBuzz.ReturnValue(5);
             Assert.AreEqual("Buzz", result);
         }
+
+        [Test()]
+        public void Using_Number_Multi_5_Should_Print_Buzz()
+        {
+            FizzBuzz fizzBuzz = new FizzBuzz();
+            var result = fizzBuzz.ReturnValue(25);
+            Assert.AreEqual("Buzz", result);
+        }
+
+
     }
 }
