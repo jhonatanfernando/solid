@@ -39,5 +39,14 @@ namespace Solid.Test
         }
 
 
+        [Test()]
+        public void Using_Number_Multi_5_And_3_Should_Print_FizzBuzz()
+        {
+            FizzBuzz fizzBuzz = new FizzBuzz();
+            var result = fizzBuzz.ReturnValue(15);
+            Assert.AreEqual("FizzBuzz", result);
+        }
+
+
     }
 }
