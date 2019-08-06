@@ -32,6 +32,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FizzBuzz.cs" />
+    <Compile Include="IRule.cs" />
+    <Compile Include="RuleFizz.cs" />
+    <Compile Include="RuleBuzz.cs" />
+    <Compile Include="RuleFizzBuzz.cs" />
+    <Compile Include="RuleNumber.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
